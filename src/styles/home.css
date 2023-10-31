@@ -1,0 +1,65 @@
+.home_main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cards_home {
+  background: linear-gradient(
+    to bottom right,
+    rgba(64, 178, 234, 84%),
+    rgba(159, 178, 50, 84%)
+  ) !important;
+  padding: 40px 40px 50px;
+  width: 30%;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  margin-left: 90px;
+}
+.learnMore-btn {
+  background-color: #2da3f9;
+  color: white;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: rgba(0, 0, 0, 0);
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 12px 30px 12px 30px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.22);
+}
+.learnMore-btn:hover {
+  background-color: #fff;
+  color: #2da3f9;
+}
+.register-btn {
+  background-color: #fff;
+  color: #2da3f9;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: rgba(0, 0, 0, 0);
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 12px 30px 12px 30px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.22);
+}
+.register-btn:hover {
+  background-color: #2da3f9;
+  color: white;
+}
+.second-box {
+  background-color: transparent;
+  background-image: linear-gradient(100deg, #41b1c7 26%, #90b233 100%);
+  padding: 30px 0px 30px 0px;
+}
+.details-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}

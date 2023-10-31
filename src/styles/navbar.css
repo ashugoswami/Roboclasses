@@ -1,0 +1,75 @@
+.header {
+  padding: 20px 0px;
+  box-shadow: 0px 5px 5px 0px rgb(181 177 177 / 18%) !important;
+}
+.header li {
+  font-weight: 500;
+  font-size: 18px;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.navbar-brand:hover {
+  color: white;
+  text-shadow: 0 50px 30px gold;
+}
+.signup-btn {
+  padding: 9px 23px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 18%) !important;
+  background: linear-gradient(
+    to bottom right,
+    rgba(64, 178, 234, 84%),
+    rgba(159, 178, 50, 84%)
+  ) !important;
+  transition: all ease-in-out 0.4s;
+  color: #fff;
+  margin: 0;
+  border-radius: 20px;
+  background-color: #00a2e8;
+  font-weight: 600 !important;
+  font-size: 0.75em;
+  opacity: 1;
+  letter-spacing: 1.1px;
+  line-height: normal;
+  border: none;
+}
+.nav-link {
+  color: #2da3f9;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #2da3f9;
+}
+
+.search-icons {
+  color: #2da3f9;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.scroller {
+  background-color: rgb(240, 233, 233);
+}
+.scroller .nav-link {
+  color: black;
+}
+.scroller .nav-link:hover {
+  color: goldenrod;
+}
+
+.scroller .navbar-brand {
+  color: black;
+}
+.scroller .signup-btn {
+  border: 2px solid black;
+}
+.scroller .login {
+  border: 2px solid black;
+  color: black;
+}
+.scroller .login:hover {
+  background-color: black;
+  color: white;
+}

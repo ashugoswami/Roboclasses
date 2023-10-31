@@ -1,0 +1,88 @@
+.teacher_card {
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 85vw;
+  background: #fff;
+  padding: 60px;
+  margin-bottom: -120px;
+  z-index: 1;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 31%);
+  border-radius: 8px;
+}
+.join_btn {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  fill: #fff;
+  color: #fff;
+  background-color: #2da3f9;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #2da3f9;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.34);
+  padding: 14px 30px 14px 30px;
+}
+.join_btn:hover {
+  background-color: white;
+  color: #2da3f9;
+  border: 1px solid #2da3f9;
+}
+.footercontainer {
+  width: 100vw;
+  min-width: 700px;
+  background-image: linear-gradient(90deg, #41b1c7 0%, #90b233 100%);
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 190px;
+}
+.footercontainer p {
+  color: gold;
+}
+.footercontent {
+  position: relative;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.effect {
+  display: flex;
+  flex-direction: column;
+}
+.input_email {
+  border-radius: 50px;
+  padding: 18px 30px;
+  border: none;
+}
+.subscribe_btn {
+  display: inline-block;
+  padding: 13px 40px;
+  border-radius: 100px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 16%);
+  background: #eaf8ff;
+  color: #2da3f9;
+  border: none;
+  cursor: pointer;
+}
+.subscribe_btn:hover {
+  background-color: #2da3f9;
+  color: #eaf8ff;
+}
+.effect h5 {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.effect p {
+  color: white;
+}
+.support_effect p {
+  margin-bottom: 0px;
+}

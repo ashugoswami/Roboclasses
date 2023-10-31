@@ -1,0 +1,12 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.loaderbtn button {
+  background-color: rgb(113, 84, 243);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
